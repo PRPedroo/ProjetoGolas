@@ -1,0 +1,20 @@
+.canvas-container {
+  position: relative;
+  width: 1024;
+  height: 576px;
+  margin: 0 auto;
+}
+
+#timer-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#timer {
+  font-size: 45px;
+  color: white;
+  padding: 50px;
+}
